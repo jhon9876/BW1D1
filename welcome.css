@@ -1,0 +1,16 @@
+html {
+  background-image: url(./assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header img {
+  width: 200px;
+}
+* {
+  margin: 30px;
+}
+h1 {
+  color: white;
+  font-size: 100px;
+}
