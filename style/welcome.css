@@ -1,16 +1,68 @@
 html {
-  background-image: url(./assets/bg.jpg);
+  background-image: url(../assets/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 500px;
+  max-width: 3500px;
+  margin: auto;
 }
 
 header img {
-  width: 200px;
+  width: 500px;
 }
-* {
-  margin: 30px;
+body {
+  margin-left: 300px;
+  margin-top: 200px;
+  font-family: "Times New Roman", Times, serif;
 }
 h1 {
   color: white;
+  font-size: 200px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+span {
+  font-weight: bold;
+}
+
+h2 {
+  color: #c2128d;
   font-size: 100px;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+form p {
+  display: inline;
+  margin-left: 50px;
+  vertical-align: bottom;
+  font-weight: bold;
+}
+li {
+  color: white;
+  font-size: 50px;
+  margin: 50px;
+}
+
+#spunta {
+  width: 50px;
+  height: 50px;
+  margin-top: 300px;
+}
+
+#bottone {
+  width: 500px;
+  height: 150px;
+  margin-left: 300px;
+  font-size: 50px;
+  vertical-align: bottom;
+  font-weight: bold;
+  background-color: skyblue;
+  box-shadow: 1px 1px lightblue;
 }
